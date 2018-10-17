@@ -2,7 +2,7 @@
 //
 // DrvLot.SHA
 
-package sha
+package eth
 
 import (
 	"encoding/hex"
@@ -10,7 +10,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 )
 
-func sha(msg []byte) string {
+func Sha(msg []byte) string {
 	if msg == nil {
 		msg = []byte("")
 	}
