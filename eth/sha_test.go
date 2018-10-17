@@ -2,7 +2,7 @@
 //
 // DrvLot.SHA
 
-package eth
+package ean
 
 import (
 	"fmt"
